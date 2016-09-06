@@ -1,0 +1,19 @@
+{
+  "name": "nodechat",
+  "version": "1.0.0",
+  "description": "Chat service built with Node and Express as well as Angular.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "keywords": [
+    "node",
+    "chat"
+  ],
+  "author": "AppleCrazy",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
