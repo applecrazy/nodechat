@@ -1,0 +1,13 @@
+language: node_js
+
+# test on two node.js versions: 0.6 and 0.8
+node_js:
+  - "3.9"
+
+install:
+    - npm install
+
+before_script:
+    - chmod +x ./travis_test.sh
+script:
+    - bash travis_test.sh
